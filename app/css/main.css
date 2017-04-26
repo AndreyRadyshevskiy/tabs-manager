@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Lato, sans-serif;
+  margin-bottom: 70px;
+}
+
+ul {
+  list-style: none;
+}
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  background: #273135;
+  position: fixed;
+  z-index: 1;
+}
+
+.user {
+  float: left;
+  width: 250px;
+  height: 70px;
+  background: #FA7252;
+}
+
+.user img {
+  float: left;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 11px 10px 0 20px;
+}
+
+.user span {
+  float: left;
+  height: 70px;
+  line-height: 70px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.logo {
+  float: left;
+  width: 300px;
+  height: 70px;
+  line-height: 70px;
+  color: #fff;
+  font-size: 22px;
+  margin-left: 20px;
+  text-transform: uppercase;
+}
+
+.login {
+  float: right;
+  color: #fff;
+  margin-right: 60px;
+  margin-top: 23px;
+}
+
+.login a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.panel {
+  position: fixed;
+  width: 250px;
+  height: 100vh;
+  background: #273135;
+  padding: 20px;
+  color: #818D93;
+  z-index: 0;
+}
+
+.search-field {
+  width: 210px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #818D93;
+  padding-left: 20px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.search-field:focus {
+  outline: none;
+  color: #fff;
+}
+
+.panel a {
+  text-decoration: none;
+}
+
+.all-tabs,
+.unsorted {
+  display: block;
+  position: relative;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.all-tabs::after,
+.unsorted::after {
+  position: absolute;
+  content: "42";
+  right: 20px;
+}
+
+.navigation a {
+  color: #818D93;
+}
+
+.main-wrapper {
+  margin-left: 250px;
+  padding-top: 70px;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+main .main-title {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.recent-bookmarks {
+  margin-top: 20px;
+  padding: 0 20px;
+}
+
+.recent-bookmarks li {
+  float: left;
+}
+
+.recent-bookmarks li a {
+  display: inline-block;
+  width: 180px;
+  height: 180px;
+  background: #a0a1a2;
+  margin: 0 20px;
+}
